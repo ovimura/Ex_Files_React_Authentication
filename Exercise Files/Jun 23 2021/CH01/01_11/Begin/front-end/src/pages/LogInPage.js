@@ -11,6 +11,7 @@ export const LogInPage = () => {
 
     const onLogInClicked = async () => {
         alert('Log in not implemented yet');
+        setErrorMessage('login not implemented');
     }
 
     return (

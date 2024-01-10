@@ -35,6 +35,7 @@ export const UserInfoPage = () => {
         // update the user's info with any changes we've
         // made to the text input values
         alert('Save functionality not implemented yet');
+        history.push('/');
     }
 
     const logOut = () => {
