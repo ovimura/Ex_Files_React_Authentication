@@ -12,7 +12,7 @@ export const signUpRoute = {
 
         const db = getDbConnection('react-auth-db');
         const user = await db.collection('users').findOne({ email });
-
+        console.log(user);
         if (user) {
             res.sendStatus(409);
         }
@@ -39,7 +39,7 @@ export const signUpRoute = {
         try {
             await sendEmail({
                 to: email,
-                from: 'shaun.linkedin.learning@gmail.com',
+                from: 'ovioamu@gmail.com',
                 subject: 'Please verify your email',
                 text: `
                     Thanks for signing up! To verify your email, click here:

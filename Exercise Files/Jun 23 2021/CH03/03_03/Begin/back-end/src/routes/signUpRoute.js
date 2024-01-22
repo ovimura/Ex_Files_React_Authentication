@@ -39,7 +39,7 @@ export const signUpRoute = {
         try {
             await sendEmail({
                 to: email,
-                from: 'shaun.linkedin.learning@gmail.com',
+                from: 'ovioamu@gmail.com',
                 subject: 'Please verify your email',
                 text: `
                     Thanks for signing up! To verify your email, click here:
